@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+	lsof -i TCP   ##List all TCP with domain name
+        #lsof -i -n   ##List all TCP/UDP with IP addresses
+else
+	lsof -i 4 -a -p $1
+fi

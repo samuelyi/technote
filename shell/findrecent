@@ -1,0 +1,8 @@
+#!/bin/bash
+##FIND THE FILES THAT ARE CHANGED IN MOST RECENT X DAYS
+
+if [ $# -ne 1 ]; then
+    exit 1
+fi
+
+find . -type f -mtime -$1

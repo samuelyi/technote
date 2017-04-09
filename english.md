@@ -8,6 +8,6 @@
 - stay tune for scenes from next episode
 - not least of which is that *不仅仅是*
 - tell ... from ... *区分*
-- it's also worth nothing that *值得一提的是*
+- it's also worth noting that *值得一提的是*
 - an exhaustive list
 - in alpha order

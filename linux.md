@@ -19,3 +19,10 @@
 - 4:  Full multi-user with display manager (GUI)
 - 5: Full multi-user with display manager (GUI)
 - 6: Reboot
+
+# Linux edition
+## RedHat / Centos
+- cat /etc/*release
+
+##Debian
+- cat /etc/*release

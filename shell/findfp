@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+if [ $# -eq 0 ]; then
+	echo "Purpose: find files opened by process name"
+	echo "Usage: `basename $0` <procname>"
+	exit 1
+else
+	for PID in `pgrep $1`
+	do
+		echo "******File Opened by process $1 pid $PID"
+		lsof -a -p $PID
+	done
+fi
+
